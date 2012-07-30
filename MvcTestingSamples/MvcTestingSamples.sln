@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTestingSamples", "MvcTestingSamples\MvcTestingSamples.csproj", "{4E4B3873-7AA0-40CE-9FF4-1AC050BF3BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTestingSamples.VsTests", "MvcTestingSamples.VsTests\MvcTestingSamples.VsTests.csproj", "{AA2E5451-9A77-4E2C-BC44-8427F63A965D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTestingSamples.Tests", "MvcTestingSamples.Tests\MvcTestingSamples.Tests.csproj", "{37E9A688-8891-4171-B30D-465F2A012603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E4B3873-7AA0-40CE-9FF4-1AC050BF3BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4B3873-7AA0-40CE-9FF4-1AC050BF3BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4B3873-7AA0-40CE-9FF4-1AC050BF3BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4B3873-7AA0-40CE-9FF4-1AC050BF3BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2E5451-9A77-4E2C-BC44-8427F63A965D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2E5451-9A77-4E2C-BC44-8427F63A965D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2E5451-9A77-4E2C-BC44-8427F63A965D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2E5451-9A77-4E2C-BC44-8427F63A965D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E9A688-8891-4171-B30D-465F2A012603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E9A688-8891-4171-B30D-465F2A012603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E9A688-8891-4171-B30D-465F2A012603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E9A688-8891-4171-B30D-465F2A012603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<MvcTestingSamples.Models.Something>
+
+<table>
+@foreach (var item in Model) {
+    <tr data-pkey="@item.ID">
+        <td>
+            @Html.DisplayFor(modelItem => item.Foo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SomeSortaThing)
+        </td>
+        <td class="rowControl hidden">
+            <a href="#makeRowEditable" class="makeRowEditable">Edit</a> |
+            <a href="#deleteRow" class="deleteRow">Delete</a>
+        </td>
+    </tr>
+}
+</table>

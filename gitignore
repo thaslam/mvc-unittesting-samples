@@ -1,0 +1,34 @@
+# Temporary build files #
+#########################
+*.dep
+*.aps
+*.vbw
+*.suo
+*.obj
+*.ncb
+*.plg
+*.bsc
+*.ilk 
+*.exp
+*.sbr
+*.opt
+*.pdb
+*.idb
+*.pch
+*.res
+*.user
+
+# Build directories #
+#####################
+obj/
+bin/
+Debug/
+Release/
+
+# Resharper #
+#############
+ ./Resharp*
+
+# Special files #
+#################
+Thumbs.db

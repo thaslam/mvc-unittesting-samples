@@ -1,0 +1,16 @@
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\MvcTestingSamples.Tests.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\MvcTestingSamples.Tests.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\nunit.framework.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\nunit.framework.xml
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\obj\Debug\MvcTestingSamples.Tests.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\obj\Debug\MvcTestingSamples.Tests.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\Moq.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\MvcTestingSamples.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\Ninject.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\System.Web.Optimization.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\MvcTestingSamples.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\Moq.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\Moq.xml
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\Ninject.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.Tests\bin\Debug\Ninject.xml

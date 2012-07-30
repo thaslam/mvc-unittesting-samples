@@ -1,0 +1,9 @@
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\MvcTestingSamples.VsTests.dll.config
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\MvcTestingSamples.VsTests.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\MvcTestingSamples.VsTests.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\MvcTestingSamples.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\System.Web.Optimization.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\MvcTestingSamples.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\obj\Debug\ResolveAssemblyReference.cache
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\obj\Debug\MvcTestingSamples.VsTests.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\obj\Debug\MvcTestingSamples.VsTests.pdb
