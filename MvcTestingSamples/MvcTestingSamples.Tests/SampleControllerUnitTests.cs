@@ -32,7 +32,7 @@ namespace MvcTestingSamples.Tests
             mock.Setup<IEnumerable<Something>>(r => r.GetSomethings()).Returns(list);
 
             var controller = new SampleController(mock.Object);
-            var result = (ViewResult)controller.Index();
+            var result = controller.Index() as ViewResult;
 
             Assert.IsNotAssignableFrom<IEnumerable<Something>>(result.ViewData.Model);
             var viewList = result.ViewData.Model as IEnumerable<Something>;

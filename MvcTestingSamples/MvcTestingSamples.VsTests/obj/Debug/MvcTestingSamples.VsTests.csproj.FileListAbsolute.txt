@@ -7,3 +7,6 @@ D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.V
 D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\obj\Debug\ResolveAssemblyReference.cache
 D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\obj\Debug\MvcTestingSamples.VsTests.dll
 D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\obj\Debug\MvcTestingSamples.VsTests.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\Ninject.dll
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\Ninject.pdb
+D:\development\git\MVC-UnitTesting-Samples\MvcTestingSamples\MvcTestingSamples.VsTests\bin\Debug\Ninject.xml
