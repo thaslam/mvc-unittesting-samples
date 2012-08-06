@@ -127,9 +127,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\MvcTestingSamples\JS\samples.index.js">
-      <Link>JSUnderTest\samples.index.js</Link>
-    </Content>
+    <Content Include="Content\qunit.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -175,6 +173,7 @@
     <Content Include="Scripts\knockout-2.0.0.debug.js" />
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="Scripts\qunit.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -191,6 +190,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="JSUnderTest\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -226,4 +226,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>XCOPY "$(SolutionDir)MvcTestingSamples\JS" "$(ProjectDir)JSUnderTest" /S /Y</PreBuildEvent>
+  </PropertyGroup>
 </Project>

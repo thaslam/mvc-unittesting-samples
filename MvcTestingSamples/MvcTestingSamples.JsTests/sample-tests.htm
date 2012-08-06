@@ -2,8 +2,87 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <link href="Content/qunit.css" media="screen" rel="Stylesheet" />
+    <script type="text/javascript" src="Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="Scripts/qunit.js"></script>
+    <script type="text/javascript" src="JSUnderTest/samples.index.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            module("sample", {
+                setup: function () {
+                },
+                teardown: function () {
+                }
+            });
+
+            test('TestJsonMessage status should be true', function () {
+                //equals
+                notEqual(sample.getUrl(), null, 'The URL should not be null');
+            });
+
+            // in these tests we dynamically create a shim for sampleContent to run
+            // a series of unit tests that depend on the div being present in the DOM
+            module("sample-sampleContent-div-tests", {
+                setup: function () {
+                    $('body').append('<div id="sampleContent"></div>');
+                },
+                teardown: function () {
+                    $('#sampleContent').remove();
+                }
+            });
+
+            test('Sample content div mouseover turns white', function () {
+                sample.onContentMouseover();
+                equals($('#sampleContent').css("background-color"), "rgb(255, 255, 255)", 'The background-color should be white onmouseover of sampleContent div');
+            });
+
+            test('Sample content div mouseout turns grey', function () {
+                sample.onContentMouseout();
+                equals($('#sampleContent').css("background-color"), "rgb(221, 221, 221)", 'The background-color should be white onmouseover of sampleContent div');
+            });
+
+            // in these tests we mock jquery instead of creating a shim for sampleContent to run
+            // a series of unit tests that depend on the div being present in the DOM
+            module("sample-mocked-sampleContent-div-tests", {
+                setup: function () {
+                    this.jq = function (element) {
+                        this.css = function (value1, value2) {
+                            if (value2 != undefined)
+                                this.color = value2;
+                            return this.color;
+                        };
+
+                        return this;
+                    };
+                },
+                teardown: function () {
+                }
+            });
+
+            test('Sample content div mouseover turns white', function () {
+                sample.$ = this.jq;
+                sample.onContentMouseover();
+                equals(sample.$('#mock').css("background-color"), "#ffffff", 'The background-color should be white onmouseover of sampleContent div');
+            });
+
+            test('Sample content div mouseout turns grey', function () {
+                sample.$ = this.jq;
+                sample.onContentMouseout();
+                equals(sample.$('#mock').css("background-color"), "#dddddd", 'The background-color should be white onmouseover of sampleContent div');
+            });
+        });
+
+    </script>
 </head>
 <body>
-
+    <h1 id="qunit-header">QUnit example</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+    <div id="qunit-fixture">test markup, will be hidden</div>
 </body>
+
 </html>
